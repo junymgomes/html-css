@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo música</h1>
+    <p>Musica Happy Mistake do YouTube</p>
+    <audio src="midias/happy_mistake.mp3" autoplay controls loop ></audio>
+
+    <h2>Agora outra música e configurações</h2>
+    <p>Vamos reproduzir um áudio: Música Good Morning do YouTube</p>
+    <audio preload="metadata" controls autoplay> 
+        <p>Música Good Morning do YouTube</p>
+        <source src="midias/good_morning.mp3" type="audio/mpeg">
+        <source src="midias/good_morning.ogg" type="audio/ogg">
+        <source src="midias/good_morning.wav" type="audio/wav">
+        <p>Seu navegador não toca, baixe <a href="midias/good_morning.mp3">AQUI</a> o arquivo MP3</p>
+    </audio>
+
+    <h2>Vamos adicionar vídeos</h2>
+    <p>Abaixo vou adicionar alguns vídeos</p>
+   
+</body>
+</html>

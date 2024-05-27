@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/*Configurações globais da CSS*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, #5E05F0,#FA1505,#E3A410);
+
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: -10px -10px 10px 10px rgba(0, 0, 0, 0.573);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+p{
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    color: rgb(204, 135, 6);
+    text-shadow: 10px#E3A410;
+}
