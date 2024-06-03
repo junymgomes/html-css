@@ -3,19 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de main e posição</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+/*          background-color: black;
             background-image: url(imagens/wallpaper003.jpg);
             background-position: center top;
             background-repeat: no-repeat;
-            background-size: cover;
-        }
+            background-size: cover; */
+
+/*          Shorthand - background: 
+            color > image > position > repeat > /[size] > attachment; */
+
+            background: black url('imagens/wallpaper002.jpg') center center / cover no-repeat fixed;
+/*          background-size: cover;
+ */        }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 2px solid black;
@@ -27,6 +33,13 @@
     <main>
         <h1>Titulo</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quam sapiente animi dolorem, consectetur illo vitae optio minima aliquid porro rerum odit, dolorum soluta. Deleniti adipisci nisi vero quod a.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facilis eligendi voluptates, natus impedit iusto voluptas placeat rerum at ullam totam fuga debitis delectus blanditiis sint obcaecati officia sed officiis.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ex explicabo excepturi, delectus consequuntur ipsum mollitia sequi facere aperiam perspiciatis neque magni repellendus, illo ipsa rerum labore odit, maiores praesentium.</p>
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ducimus ut earum maiores fuga repellat eveniet eum fugiat ad velit odit ex amet, vero totam corporis laboriosam sequi nam tempore.</p>
+        
     </main>
 </body>
 </html>
